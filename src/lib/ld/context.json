@@ -1,0 +1,26 @@
+{
+  "@base": "https://vocab.voxmedia.com/",
+  "@vocab": "#",
+  "id": "@id",
+  "type": "@type",
+  "Context": "Context",
+  "Backlink": "Backlink",
+  "Target": "Target",
+  "ChorusGroup": "ChorusGroup",
+  "Url": "Url",
+  "name": "name",
+  "groupId": "groupId",
+  "timestamp": {
+    "@id": "timestamp",
+    "@type": "xsd:integer"
+  },
+  "target": "target",
+  "terms": "terms",
+  "context": {
+    "@reverse": "terms"
+  },
+  "parent": "parent",
+  "children": {
+    "@reverse": "parent"
+  }
+}
