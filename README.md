@@ -28,8 +28,8 @@ $ docker-compose up
 PREFIX vox: <https://vocab.voxmedia.com/#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 INSERT DATA {
-  <http://localhost:5173> rdf:type <vox:Resource> .
-  <http://localhost:5173> vox:title "SvelteKit Triplestore" .
+  <http://localhost:5173> rdf:type <vox:Service> .
+  <http://localhost:5173> vox:title "Encore" .
 }
 ```
 
